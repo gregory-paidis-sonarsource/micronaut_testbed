@@ -18,7 +18,8 @@ dependencies {
     compileOnly("io.micronaut:micronaut-http-client")
     runtimeOnly("ch.qos.logback:logback-classic")
     testImplementation("io.micronaut:micronaut-http-client")
-    testCompileOnly("org.junit.jupiter:junit-jupiter-params:5.10.0")
+    testCompileOnly("org.junit.jupiter:junit-jupiter-params")
+    runtimeOnly("org.yaml:snakeyaml")
 }
 
 
