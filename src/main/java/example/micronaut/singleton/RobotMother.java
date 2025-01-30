@@ -1,9 +1,9 @@
 package example.micronaut.singleton;
 
+import io.micronaut.context.annotation.Prototype;
 import io.micronaut.core.annotation.NonNull;
-import jakarta.inject.Singleton;
 
-@Singleton
+@Prototype
 public class RobotMother {
   private final Robot robot;
 

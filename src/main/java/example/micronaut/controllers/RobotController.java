@@ -9,7 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @Controller("/robot")
-
 public class RobotController {
 
   private final RobotFather father;

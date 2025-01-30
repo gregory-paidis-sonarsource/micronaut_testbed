@@ -17,7 +17,7 @@ public class StadiumController {
 
   public StadiumController(
     @Nullable TeamConfiguration2 teamConfiguration,
-    @Nullable @Named("pnc") StadiumConfiguration stadiumConfiguration) {
+    @Nullable @Named("coors") StadiumConfiguration stadiumConfiguration) {
     this.teamConfiguration = teamConfiguration;
     this.stadiumConfiguration = stadiumConfiguration;
   }

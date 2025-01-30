@@ -1,8 +1,7 @@
 package example.micronaut.singleton;
 
 import io.micronaut.core.annotation.NonNull;
-import jakarta.inject.Singleton;
-
+import io.micronaut.runtime.http.scope.RequestScope;
 import java.util.UUID;
 
 
@@ -10,7 +9,7 @@ import java.util.UUID;
 // Prototype:       once per injection point.
 // RequestScope:    once per request.
 // Singleton:       once forever.
-@Singleton
+@RequestScope
 public class Robot {
   @NonNull
   private final String serialNumber;
