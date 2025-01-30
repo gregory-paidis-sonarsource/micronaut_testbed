@@ -1,13 +1,13 @@
-package example.micronaut.singleton;
+package example.micronaut.scope;
 
 import io.micronaut.context.annotation.Prototype;
 import io.micronaut.core.annotation.NonNull;
 
 @Prototype
-public class RobotMother {
+public class RobotFather {
   private final Robot robot;
 
-  public RobotMother(Robot robot) {
+  public RobotFather(Robot robot) {
     this.robot = robot;
   }
 

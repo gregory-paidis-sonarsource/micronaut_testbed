@@ -9,6 +9,8 @@ import io.micronaut.http.annotation.Get;
 
 import jakarta.inject.Named;
 
+// Configuration has the following flavors: @ConfigurationProperties, @ConfigurationBuilder, @EachProperty
+// ref https://guides.micronaut.io/latest/micronaut-configuration-gradle-java.html
 @Controller("/stadium")
 public class StadiumController {
 

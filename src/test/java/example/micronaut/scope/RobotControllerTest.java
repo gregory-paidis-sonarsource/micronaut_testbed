@@ -1,4 +1,4 @@
-package example.micronaut.singleton;
+package example.micronaut.scope;
 
 import io.micronaut.core.type.Argument;
 import io.micronaut.http.HttpRequest;
