@@ -20,6 +20,7 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     testCompileOnly("org.junit.jupiter:junit-jupiter-params")
     runtimeOnly("org.yaml:snakeyaml")
+    testImplementation("io.micronaut.test:micronaut-test-rest-assured")
 }
 
 
